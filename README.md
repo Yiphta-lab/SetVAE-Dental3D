@@ -68,6 +68,7 @@ Selon les options définies dans le script, cela :
 .
 ├── generation.py                        # Script principal
 ├── requirements.txt                     # Dépendances
+├── tutoriel.pdf         # Explication mathématique
 ├── pointcloud_dent_small.npy            # Exemple de nuage de points d'entrée
 ├── segmentation_multiniveau_cote_a_cote.png   # Visualisation multi‑niveaux affichée dans le README
 └── README.md
