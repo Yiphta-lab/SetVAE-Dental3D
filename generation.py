@@ -387,7 +387,7 @@ class SetVAE(nn.Module):
 # =========================
 # Chargement données
 # =========================
-data = np.load("pointcloud_dent.npy")
+data = np.load("pointcloud_dent_small.npy")
 print("Type de données :", type(data))
 print("Shape :", data.shape)
 
