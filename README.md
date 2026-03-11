@@ -36,12 +36,12 @@ Cloner le dépôt :
 git clone https://github.com/<ton_nom>/<ton_repo>.git
 cd <ton_repo>
 ```
-# Installer les dépendances :
+Installer les dépendances :
 ```bash
 
 pip install -r requirements.txt
 ```
-#Exécution
+Exécution
 
 Le script principal est generation.py.
 
