@@ -8,11 +8,7 @@ Modèle SetVAE hiérarchique pour nuages de points dentaires 3D, avec prior en m
 
 Cette image montre la **segmentation implicite multi‑niveaux** produite par le modèle.  
 Chaque colonne correspond à un niveau latent du SetVAE (global → intermédiaire → fin).  
-Les couleurs représentent l’**inducing point dominant** pour chaque point du nuage, obtenu via :
-
-- calcul des cartes d’attention `attn_maps[level]`,
-- attribution `argmax(attn)` pour chaque point,
-- visualisation 3D colorée.
+Les couleurs représentent l’**inducing point dominant** pour chaque point du nuage.
 
 Cela permet d’observer comment le modèle décompose la dent en régions structurelles à différentes granularités.
 
