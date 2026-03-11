@@ -2,13 +2,19 @@
 
 Modèle SetVAE hiérarchique pour nuages de points dentaires 3D, avec prior en mélange de gaussiennes, inférence bidirectionnelle et visualisations d’attention multi‑niveaux permettant une génération coarse‑to‑fine et l’analyse de la structure latente des dents.
 
----
-
 ## Aperçu du projet
 
-![Aperçu du modèle](./segmentation_multiniveau_cote_a_cote.png)
+![Segmentation multi‑niveaux](./segmentation_multiniveau_cote_a_cote.png)
 
-*(Place ton fichier `image.png` dans le dossier racine du repo pour qu’il s’affiche ici.)*
+Cette image montre la **segmentation implicite multi‑niveaux** produite par le modèle.  
+Chaque colonne correspond à un niveau latent du SetVAE (global → intermédiaire → fin).  
+Les couleurs représentent l’**inducing point dominant** pour chaque point du nuage, obtenu via :
+
+- calcul des cartes d’attention `attn_maps[level]`,
+- attribution `argmax(attn)` pour chaque point,
+- visualisation 3D colorée.
+
+Cela permet d’observer comment le modèle décompose la dent en régions structurelles à différentes granularités.
 
 ---
 
