@@ -33,7 +33,7 @@ Un fichier **tutoriel.pdf** est fourni pour expliquer les équations, la théori
 Cloner le dépôt :
 
 ```bash
-git clone https://github.com/<ton_nom>/<ton_repo>.git
+git clone https://github.com/Yiphta-lab/SetVAE-Dental3D.git
 cd <ton_repo>
 ```
 Installer les dépendances :
