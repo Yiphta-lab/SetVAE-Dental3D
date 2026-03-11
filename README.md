@@ -11,6 +11,7 @@ Chaque colonne correspond à un niveau latent du SetVAE (global → intermédiai
 Les couleurs représentent l’**inducing point dominant** pour chaque point du nuage.
 
 Cela permet d’observer comment le modèle décompose le nuage de points dentaire en régions structurelles à différentes granularités.
+
 ---
 
 ## Description
