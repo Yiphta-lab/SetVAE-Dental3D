@@ -36,3 +36,27 @@ Cloner le dépôt :
 git clone https://github.com/<ton_nom>/<ton_repo>.git
 cd <ton_repo>
 ```
+# Installer les dépendances :
+```bash
+
+pip install -r requirements.txt
+```
+#Exécution
+
+Le script principal est generation.py.
+
+Pour lancer une génération :
+```bash
+
+python3 generation.py
+```
+Selon les options définies dans le script, cela :
+
+ -   charge le modèle,
+
+ -  génère un nuage de points,
+
+ -   calcule les cartes d’attention,
+
+ -   affiche les visualisations multi‑niveaux.
+   
