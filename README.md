@@ -26,8 +26,6 @@ Il inclut :
 - des **visualisations d’attention multi‑niveaux** (global → intermédiaire → fin),
 - la génération de dents synthétiques.
 
-Un fichier **tutoriel.pdf** est fourni pour expliquer les équations, la théorie du SetVAE, et comment l’implémentation correspond exactement au modèle mathématique.
-
 ---
 
 ## Installation
