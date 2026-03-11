@@ -34,7 +34,7 @@ Cloner le dépôt :
 
 ```bash
 git clone https://github.com/Yiphta-lab/SetVAE-Dental3D.git
-cd <ton_repo>
+cd SetVAE-Dental3D
 ```
 Installer les dépendances :
 ```bash
