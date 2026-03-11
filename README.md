@@ -10,8 +10,6 @@ Cette image montre la **segmentation implicite multi‑niveaux** produite par le
 Chaque colonne correspond à un niveau latent du SetVAE (global → intermédiaire → fin).  
 Les couleurs représentent l’**inducing point dominant** pour chaque point du nuage.
 
-Cela permet d’observer comment le modèle décompose la dent en régions structurelles à différentes granularités.
-
 ---
 
 ## Description
