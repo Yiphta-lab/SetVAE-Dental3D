@@ -62,13 +62,14 @@ Selon les options définies dans le script, cela :
    
 ## Structure du dépôt
 
+```text
 .
 ├── generation.py        # Script principal
 ├── requirements.txt     # Dépendances
 ├── tutoriel.pdf         # Explication mathématique complète
 ├── image.png            # Image affichée dans le README
 └── README.md
-
+```
 Dataset
 
 Le modèle utilise le dataset 3DTeethSeg MICCAI, contenant des nuages de points dentaires segmentés.
