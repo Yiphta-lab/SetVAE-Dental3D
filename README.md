@@ -60,8 +60,7 @@ Selon les options définies dans le script, cela :
 
  -   affiche les visualisations multi‑niveaux.
    
-Structure du dépôt
-Code
+## Structure du dépôt
 
 .
 ├── generation.py        # Script principal
@@ -77,5 +76,5 @@ Les chemins d’accès doivent être configurés dans generation.py.
 Références
 
    - SetVAE: Learning Hierarchical Composition for Generative Modeling of Set-Structured Data, CVPR 2021.
-
-   -3DTeethSeg MICCAI Dataset.
+     
+   - 3DTeethSeg MICCAI Dataset.
